@@ -1,4 +1,4 @@
-# wxrvs — PC 微信 `wx.login()` 全链路逆向调查报告
+# PC 微信 `wx.login()` 全链路逆向调查报告
 
 > **调查对象**：Windows PC 微信客户端 `3.9.12.51`（内置小程序运行时 WMPF / WeChatAppEx）
 > **调查问题**：`wx.login()` 客户端到底做了什么？`code`（以及 `openid`）的生成逻辑在哪里？能否脱离客户端实现取码与换票？
